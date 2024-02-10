@@ -1,0 +1,83 @@
+:root{
+  --Pale-Blue: hsl(243, 100%, 93%);
+  --Grayish-Blue: hsl(229, 7%, 55%);
+  --Dark-Blue: hsl(228, 56%, 26%);
+  --Very-Dark-Blue: hsl(229, 57%, 11%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url(images/bg-mobile.png);
+  font-size: 14px;
+}
+main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boxone{
+  max-width: 60%;
+  max-height: 60vh;
+  background-color: var(--Very-Dark-Blue);
+  border-radius: 10px 100px 10px 10px;
+  margin-bottom: 1.5rem;
+  padding: 2.5rem;
+  overflow: hidden;
+  
+}
+
+.boxtwo{
+  color: white;
+  max-width: 60%;
+  max-height:30vh;
+  background-color: var(--Very-Dark-Blue);
+  border-radius: 10px;
+  overflow: hidden;
+  width: fit-content;
+}
+.pop{
+  font-size: 14px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.logo{
+  margin: 11px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 9px;
+  margin-left: 9px;
+}
+.slider, .range{
+  font-size: 14px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.mb{
+  width: 100px;
+  background-color: white;
+  color: black;
+  padding: 15px 10px;
+  border-radius: 1em;
+  margin: 25px 50px;
+  position: absolute;
+  width: fit-content;
+  justify-content: center;
+}
+.span{
+  font-weight: 100px;
+}
+
+
+
+
+
+
